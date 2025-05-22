@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+
+        <div class="card">
+            <div class="card-body">
+                <h3>LOGIN</h3>
+        <mdb-form-control class="firstPart">
+            <input mdbInput type="text" id="user" class="form-control" [(ngModel)] = "usuario" />
+            <label mdbLabel class="form-label" for="user">User</label >
+        </mdb-form-control>
+        
+        <mdb-form-control class="SecondPart">
+            <input mdbInput type="Password" id="Password" class="form-control" [(ngModel)] = "senha" />
+            <label mdbLabel class="form-label" for="Password">Password</label>
+        </mdb-form-control>
+        
+        <button type="button" class="btn btn-primary btn-rounded" mdbRipple (click)="logar()"
+        >Enter</button>
+        
+        </div>
+        </div>
+    </div>
+</div>

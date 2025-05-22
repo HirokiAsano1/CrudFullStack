@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2>Adicionar Carro</h2>
+                    <mdb-form-control class="firstPart">
+                        <input mdbInput type="text" id="user" class="form-control" [(ngModel)]="carro.nome" />
+                        <label mdbLabel class="form-label" for="carro">Carro</label>
+                    </mdb-form-control>
+
+                            <button type="button" class="btn btn-success  btn-rounded" mdbRipple (click)="save()"
+        >Enter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
